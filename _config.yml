@@ -1,2 +1,4 @@
-name: UK Graduate Help 
+name: UK Graduate Job Advice
 markdown: kramdown
+baseurl: /uk-graduate-job-advice
+url: https://pa5411.github.io/
