@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Psychometric Tests
-date: 2021-06-21
+date: 2021-06-24
 ---
 <div class="blurb">
         <h1>Psychometric Tests</h1>
@@ -47,14 +47,60 @@ date: 2021-06-21
 		
 		<h3> Logical Reasoning Tests </h3>
 		
-		<p> </p>
+		<p> These tests assess inductive reasoning, which is a measure of the ability to determine the most reasonable solution to a given problem. Usually each question in the test contains a sequence of patterns containing a missing term which must be identified. The patterns are often based around combinations of shapes which vary in number, colour or position in a systematic way. An example of a typical question is shown in <a href="#figurelogone">Figure 1</a>. </p>
+		
+		<h4 id="figurelogone"></h4>
+        <figure>
+				<div class="centre">
+				        <img src="{{ site.baseurl }}/assets/img/logreason1.png" alt="A typical logical reasoning based question." width="600">
+				</div>
+                <figcaption> Fig. 1 - An example of a question faced during a logical reason test. </figcaption>
+        </figure>
+		
+		<p> The question in Fig. 1 has different colours (black and white) and shapes (circles, squares and diamonds). To identify the next sequence in the pattern, a relationship must be identified which gives a reasonable explanation as to how the pattern changes from one box to the next, from left to right. One way this is accomplished is to label the different elements of the boxes as shown in <a href="#figurelogoneb">Figure 2</a>. </p>
+		
+		<h4 id="figurelogoneb"></h4>
+        <figure>
+				<div class="centre">
+				        <img src="{{ site.baseurl }}/assets/img/logreason1b.png" alt="Solving the logical reasoning question of Fig. 1." width="600">
+				</div>
+                <figcaption> Fig. 2 - A method to solve the logical reasoning test shown in <a href="#figurelogone">Figure 1</a>. </figcaption>
+        </figure>
+		
+		<p> Box one in Fig. 2 has three different shapes. Its largest sized shape is a square and is labelled "1". Its middle sized shape is a diamond and is labelled "2" whilst its smallest sized shape is a circle which is labelled "3". The shapes in box 2 and 3 can be labelled in a similar way. A pattern begins to emerges when the labels (shapes) between each box are examined more closely: </p>
+		
+		<ul>
+				<li> The shape for label 1 in box one becomes the shape for label 2 in box two. (1 -> 2) </li>
+				<li> The shape for label 2 in box one becomes the shape for label 3 in box two. (2 -> 3) </li>
+				<li> The shape for label 3 in box one becomes the shape for label 1 in box two. (3 -> 1) </li>
+		</ul>
+		
+		<p> In other words, the labels that each shape had in box one changed systematically when box two was examined. This may be a pattern between box one and two, but it is important to check that the pattern occurs between subsequent boxes. This is shown below for changes between box two and three and is confirmed by inspection of the remaining boxes. </p>
+		
+		<ul>
+				<li> The shape for label 1 in box two becomes the shape for label 2 in box three. (1 -> 2) </li>
+				<li> The shape for label 2 in box two becomes the shape for label 3 in box three. (2 -> 3) </li>
+				<li> The shape for label 3 in box two becomes the shape for label 1 in box three. (3 -> 1) </li>
+		</ul>
+		
+		<p> From the logic above there can only be two solutions, A and B. Notice that for every box, the colour of its smallest sized shape alternates between black and white. Since the smallest sized shape in box 1 is black, the smallest sized shape in box 2 is therefore white. The smallest sized shape in box 3 is therefore black again and so fourth. This means that the most reasonable solution for this question is A. </p>
+		
+		<p> The four logical patterns can be stated as follows: </p> 
+		
+		<ul>
+				<li> The largest sized shape of the current box is the same as the smallest sized shape of the proceeding box. </li> 
+				<li> The middle sized shape of the current box is the same as the largest sized shape of the proceeding box. </li> 
+				<li> The smallest sized shape of the current box is the same as the middle sized shape of the proceeding box. </li>
+				<li> If the smallest sized shape of the proceeding box is white, then the smallest sized shape of the current box is white and vice versa. </li>
+		</ul>
+		
+		<p> The deductions made here were based on the most reasonable patterns. It may be possible to find another pattern which works, but the key is to find the pattern which is most reasonable. This can usually be interpreted as meaning the "simplest" pattern. Notice that the changes were deduced by examining boxes directly next to each other, for example between box 1 and box 2. This may not always be the case. Sometimes the pattern may only be deduced by inspecting changes between every <i>other</i> box or more, for example between box 1 and box 3 or between box 1 and 4. </p> 
 		
 		<h3> Numerical Reasoning Tests </h3>
 		
 		<h3> Verbal Reasoning Tests </h3>
 		
 		<h3> Game Assessments </h3>
-		
 		
 		
 </div><!-- /.blurb -->
