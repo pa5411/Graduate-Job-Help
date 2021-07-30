@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-        <html>
-                <head>
-                        <title>{{ page.title }}</title>
-                        <!-- link to main stylesheet -->
-                        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-                </head>
-                <body>
-                        <nav>
-                        <ul>
-                                <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-                                <li><a href="{{ site.baseurl }}/cv.html">CV</a></li>
-				                <li><a href="{{ site.baseurl }}/coverletter.html">Cover Letter</a></li>
-				                <li><a href="{{ site.baseurl }}/psychometrictests.html">Psychometric Tests</a></li>
-				                <li><a href="{{ site.baseurl }}/videotests.html">Video Tests</a></li>
-				                <li><a href="{{ site.baseurl }}/assessmentcentres.html">Assessment Centres</a></li>
-				                <li><a href="{{ site.baseurl }}/interview.html">Interview</a></li>
-                                <li><a href="{{ site.baseurl }}/faqs.html">FAQs</a></li>
-                        </ul>
-                        </nav>
-                        <div class="container">
-			
-                        {{ content }}
-			
-                        </div><!-- /.container -->
-                        <footer>
-                        <ul>
-                                <li><a href="https://github.com/pa5411">github.com/pa5411</a></li>
-				                <li>Last page update: {{ page.date | date_to_string }}</li>
-								<li> <a href="{{ site.baseurl }}/sitemap.html">Site Map</a> </li>
-                        </ul>
-                        </footer>
-                </body>
-        </html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
+</head>
+
+<body>
+  <nav>
+  <ul>
+    <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+    <li><a href="{{ site.baseurl }}/cv.html">CV</a></li>
+    <li><a href="{{ site.baseurl }}/coverletter.html">Cover Letter</a></li>
+    <li><a href="{{ site.baseurl }}/psychometrictests.html">Psychometric Tests</a></li>
+    <li><a href="{{ site.baseurl }}/videotests.html">Video Tests</a></li>
+    <li><a href="{{ site.baseurl }}/assessmentcentres.html">Assessment Centres</a></li>
+    <li><a href="{{ site.baseurl }}/interview.html">Interview</a></li>
+    <li><a href="{{ site.baseurl }}/faqs.html">FAQs</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+  {{ content }} 
+  </div><!-- /.container -->
+
+  <footer>
+  <ul>
+    <li><a href="https://github.com/pa5411">github.com/pa5411</a></li>
+    <li>Last page update: {{ page.date | date_to_string }}</li>
+    <li><a href="{{ site.baseurl }}/sitemap.html">Site Map</a></li>
+  </ul>
+  </footer>
+</body>
+</html>
