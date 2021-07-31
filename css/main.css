@@ -1,46 +1,48 @@
 body {
-  margin: 60px auto;
-  width: 70%;
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  margin: 0;
+  overflow-y: scroll;
+  padding: 20px;
 }
 
-nav ul, 
-footer ul {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';  
+nav ul {
+  font-size: 18px;  
   font-weight: bold;
   list-style: none;
-  padding: 0;
   text-align: center;
 }
 
-nav ul li, footer ul li {
-  display: inline;
+nav ul li {
+  display: inline-flex;
   margin-right: 20px;
 }
 
+footer ul {
+  font-size: 14px;
+  list-style: none;
+  text-align: center;
+}
+ 
 a {
-  color: #999;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
+  color: #000;
 }
 
-h1 {
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-size: 3em;
+a:hover{
+  background: #9FE2BF;
 }
 
 p {
   color: #333;
-  font-size: 1.5em;
+  font-size: 18px;
   line-height: 1.4em;
   text-align: justify;
 }
 
 figure {
-  align: middle;
+  float: middle;
   border: 1px #cccccc solid;
+  font-size: 16px;
   padding: 4px;
 }
 
@@ -53,14 +55,9 @@ figcaption {
 
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: .8em;
 }
 
-ul.posts { 
-  font-size: 1.5em;
+ul { 
+  font-size: 18px;
   margin: 20px auto 40px; 
-}
-
-ul.posts li {
-  list-style: none;
 }
