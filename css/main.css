@@ -1,8 +1,11 @@
 body {
+  color: #333;
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 18px;
+  line-height: 1.4em;
   margin: 0;
   overflow-y: scroll;
-  padding: 20px;
+  padding: 0;
 }
 
 nav ul {
@@ -23,6 +26,16 @@ footer ul {
   text-align: center;
 }
  
+main {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 853px;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+} 
+ 
 a {
   text-decoration: underline;
   color: #000;
@@ -32,32 +45,24 @@ a:hover{
   background: #9FE2BF;
 }
 
-p {
-  color: #333;
-  font-size: 18px;
-  line-height: 1.4em;
-  text-align: justify;
-}
-
 figure {
   float: middle;
   border: 1px #cccccc solid;
-  font-size: 16px;
   padding: 4px;
 }
 
 figcaption {
   background-color: white;
-  color: black;
   padding: 1px;
   text-align: center;
+  font-size: 16px;
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
 }
 
-ul { 
-  font-size: 18px;
-  margin: 20px auto 40px; 
+ul {
+  margin: 20px; 
+  font-size: 16px;
 }
