@@ -17,9 +17,9 @@ body {
   text-align: center;
 }
 
-.site-menu ul li {
-  display: inline-flex;
-  margin-right: 20px;
+.site-menu li {
+  display: inline;
+  margin-left: 20px;
 }
 
 main {
@@ -37,7 +37,7 @@ a {
   color: #000;
 }
 
-a:hover{
+a:hover {
   background: #9FE2BF;
 }
 
