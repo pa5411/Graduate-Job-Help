@@ -1,20 +1,20 @@
-/* Menu styling */
-nav {
+/* Site top navigation menu styling */
+.site-menu nav {
   width: 100%;
   height: 50px;
 }
 
-nav ul {
+.site-menu nav ul {
   text-align: center;
 }
 
-nav ul li {
+.site-menu nav ul li {
   display: inline;
   line-height: 50px;
   list-style: none;
 }
 
-nav ul li a {
+.site-menu nav ul li a {
   font-size: 18px;
   font-weight: bold;
   padding: 0 10px;
