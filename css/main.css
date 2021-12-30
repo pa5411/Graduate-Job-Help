@@ -8,18 +8,25 @@ body {
   padding: 0;
 }
 
-.site-menu ul {
-  font-size: 18px;
-  font-weight: bold;
-  list-style: none;
-  margin: 0;
-  padding: 10px;
+nav {
+  width: 100%;
+  height: 50px;
+}
+
+nav ul {
   text-align: center;
 }
 
-.site-menu li {
+nav ul li {
   display: inline;
-  margin-left: 20px;
+  line-height: 50px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
 }
 
 main {
