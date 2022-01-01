@@ -1,7 +1,6 @@
 /* Site top navigation menu styling */
 .site-menu {
   width: 100%;
-  height: 50px;
 }
 
 .site-menu ul {
@@ -10,7 +9,6 @@
 
 .site-menu ul li {
   display: inline;
-  line-height: 50px;
   list-style: none;
 }
 
@@ -26,9 +24,7 @@ body {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   font-size: 18px;
   line-height: 1.4em;
-  margin: 0;
   overflow-y: scroll;
-  padding: 0;
 }
 
 main {
